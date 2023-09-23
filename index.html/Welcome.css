@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+                                                  
+body {
+    background-color: #23ae5f;
+}
+
+h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#21d06d ;
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h4 a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+h4 input[type="image"] {
+    width: 10%;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 120px;
+    position: relative;
+    animation: fadeIn 2s ease-in-out, moveUp 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Add any additional styling you desire */
+h1 {
+    color: #042135;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}
+
+a:hover {
+    color: #042135;
+    transition: color 0.3s ease;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+h3 a:hover {
+    background-color: #333; 
+}
